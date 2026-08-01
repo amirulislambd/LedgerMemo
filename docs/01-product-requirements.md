@@ -98,7 +98,7 @@ The secondary users of LedgerMemo are platform administrators responsible for ov
 
 # User Roles
 
-## Admin
+## Platform Administrator
 
 ### Responsibilities
 
@@ -144,7 +144,7 @@ Provide secure access to LedgerMemo so that only authorized users can use protec
 - Secure sign in.
 - Secure sign out.
 - Session management.
-- Role-based access control.
+- Access control based on user roles.
 
 ### User Actions
 
@@ -477,6 +477,7 @@ The MVP depends on the following high-level product capabilities:
 - AI Language Understanding
 - Printing Support
 - Cloud Database
+- AI Provider
 
 These dependencies are described only at the product level. Their implementation is defined in the technical documentation and are outside the scope of this PRD.
 ---
