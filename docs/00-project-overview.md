@@ -1,105 +1,52 @@
-# AI Bookkeeper
+```md
+# LedgerMemo
 
-> Talk. Sell. Print. AI Handles Everything.
+## Tagline
 
----
-
-# Project Overview
-
-AI Bookkeeper is an AI-powered SaaS bookkeeping platform designed to simplify daily business operations for small grocery stores (Mudikhana). Instead of manually writing sales, maintaining customer ledgers, or updating stock, shop owners interact with the system using natural speech.
-
-The AI understands spoken instructions, converts them into structured business transactions, and automatically updates the accounting system in real time.
-
-The primary objective is to eliminate traditional handwritten khatas and reduce the technical barrier for shop owners who are not comfortable using computers.
+**Talk. Sell. Print. AI Handles Everything.**
 
 ---
 
-# Vision
+# Introduction
 
-Build the most intelligent and easiest bookkeeping platform for small businesses.
+LedgerMemo is an AI-powered bookkeeping platform designed to simplify daily business operations for grocery shops (Mudikhana) through natural voice interaction.
 
-The long-term vision is to create an AI-first operating system for local businesses that can manage inventory, accounting, customer relationships, payments, and business analytics through natural conversation.
+Instead of writing transactions manually or maintaining traditional account books, shop owners simply speak naturally. LedgerMemo understands the conversation, interprets the business intent, and automatically records the appropriate business information.
 
----
-
-# Mission
-
-Enable every shop owner to manage their entire business by simply talking.
-
-No manual bookkeeping.
-
-No complicated software.
-
-No accounting knowledge required.
+The platform is designed to reduce manual bookkeeping while improving operational accuracy and efficiency. By combining artificial intelligence with business automation, LedgerMemo helps shop owners manage **inventory, customer ledger, customer records, sales, invoices, and business reports** through a simple voice-first experience.
 
 ---
 
-# Problem Statement
+# Main Goal
 
-Millions of small businesses still rely on:
+The primary goal of LedgerMemo is to eliminate manual bookkeeping for grocery shop owners by allowing them to interact with the system using natural speech.
 
-- Paper khatas
-- Manual stock updates
-- Handwritten invoices
-- Calculator-based billing
-- Memory-based customer dues
+Instead of typing or writing transactions, users simply describe business activities in their own words. LedgerMemo interprets the conversation and automatically performs the appropriate bookkeeping actions, including recording sales, updating inventory, maintaining customer ledgers, generating invoices, and preparing reports.
 
-These methods create:
-
-- Human errors
-- Lost records
-- Incorrect stock counts
-- Delayed reporting
-- Difficult business tracking
-
-Most existing software solutions are too complicated for non-technical shop owners.
+The goal is to let shop owners focus on running their business while LedgerMemo handles bookkeeping automatically.
 
 ---
 
-# Solution
+# Target Users
 
-AI Bookkeeper replaces manual bookkeeping with an AI-powered voice workflow.
+## Primary Users
 
-Example:
-
-Owner says:
-
-"Rahim ke dui kg chaal, ek liter tel, baki rakho."
-
-The platform automatically:
-
-- Understands the speech
-- Identifies the customer
-- Finds products
-- Calculates quantity
-- Calculates total
-- Applies previous due
-- Creates the sale
-- Updates stock
-- Updates customer ledger
-- Generates invoice
-- Makes the invoice printable
-
-The entire workflow is completed without manual data entry.
+Small and medium grocery shop owners (Mudikhana) who need a simple and AI-powered bookkeeping solution for managing daily business operations.
 
 ---
 
-# Target Market
+## Future Expansion
 
-## Initial Market
-
-- Grocery Shops (Mudikhana)
-
----
-
-## Future Markets
+The platform is designed to expand into additional business categories, including:
 
 - Pharmacy
 - Hardware
 - Clothing
 - Electronics
 - Restaurant
-- Wholesale Distribution
+- Wholesale
+
+The architecture is designed so new business categories can be supported without major system changes.
 
 ---
 
@@ -117,169 +64,247 @@ The product follows a simple philosophy.
 
 Every feature should reduce manual work rather than introduce additional complexity.
 
+The product is guided by the following principles:
+
+- Users should never need accounting knowledge.
+- Users only describe what happened.
+- LedgerMemo decides what should be recorded.
+- AI should reduce manual work, not increase it.
+- Every feature must save time for the shop owner.
+- Simplicity is more important than feature count.
+
 ---
 
-# Core Principles
+# Core Workflow Principles
 
-- AI-first design
-- Mobile-friendly
-- Extremely simple user experience
-- Fast transaction processing
-- Offline-friendly architecture (future)
-- Scalable SaaS architecture
-- Modular backend
-- Production-ready engineering
-- Security by design
+The high-level business workflow follows a simple voice-first process.
 
+Voice Input
+
+↓
+
+Speech Recognition
+
+↓
+
+AI Understanding
+
+↓
+
+Validation
+
+↓
+
+Business Logic
+
+↓
+
+Inventory & Customer Ledger Update
+
+↓
+
+Invoice Generation
+
+↓
+
+Dashboard & Reports
+```
+```md id="project-overview-part-2"
 ---
 
 # Primary Features (MVP)
 
-- User Authentication
-- Shop Management
-- Product Management
-- Customer Management
-- Voice Sales
-- AI Voice Parsing
-- Sales Management
-- Customer Ledger
-- Invoice Generation
-- Browser Printing
-- Dashboard
-- Reports
+## Authentication
+
+Secure user authentication and account access.
 
 ---
 
-# Future Features
+## Shop Management
 
-- Bluetooth Thermal Printing
-- Barcode Scanner
-- Purchase Management
-- Supplier Management
-- Expense Tracking
-- Employee Management
-- Offline Synchronization
-- Mobile App
-- WhatsApp Integration
-- bKash
-- Nagad
-- Rocket
-- AI Analytics
-- AI Business Assistant
-- Demand Prediction
-- Sales Prediction
+Manage shop information and business settings.
+
+---
+
+## Product Management
+
+Create, update, organize, and manage products available for sale.
+
+---
+
+## Customer Management
+
+Maintain customer records and business relationships.
+
+---
+
+## Sales Management
+
+Record and manage sales transactions accurately.
+
+---
+
+## Voice Sales
+
+Allow shop owners to record sales by speaking naturally instead of typing.
+
+---
+
+## Customer Ledger
+
+Automatically maintain customer due balances and transaction history.
+
+---
+
+## Invoice Management
+
+Generate professional invoices automatically after every successful sale.
+
+---
+
+## Inventory Management
+
+Automatically update product stock after every successful sale.
+
+---
+
+## Dashboard
+
+Provide business insights through summarized operational information.
+
+---
+
+## Reports
+
+Generate business reports to help shop owners monitor daily operations and performance.
 
 ---
 
 # High-Level Workflow
 
-Customer arrives
+The overall business process follows these steps:
 
-↓
-
-Shop owner speaks
-
-↓
-
-Voice converted to text
-
-↓
-
-AI extracts structured business data
-
-↓
-
-Validation Engine verifies products
-
-↓
-
-Sales Engine creates transaction
-
-↓
-
-Inventory updates
-
-↓
-
-Customer ledger updates
-
-↓
-
-Invoice generated
-
-↓
-
-Print ready
-
-↓
-
-Dashboard updated
+1. The shop owner speaks naturally.
+2. Speech is converted into text.
+3. AI understands the business intent.
+4. Business information is validated.
+5. Business logic is executed.
+6. **Inventory and customer ledger are updated automatically.**
+7. An invoice is generated.
+8. Dashboard and reports reflect the latest business information.
 
 ---
 
-# Success Metrics
+# Future Features
 
-The product will be considered successful if it can:
+The following capabilities are planned for future releases and are not part of the MVP.
 
-- Reduce manual bookkeeping time by more than 90%
-- Complete a sale within a few seconds
-- Maintain inventory accuracy
-- Keep customer ledgers synchronized
-- Produce printable invoices instantly
-- Scale from one shop to more than 10,000 shops without architectural changes
+- Bluetooth Printer Support
+- Barcode Scanner
+- Purchase Module
+- Supplier Management
+- Expense Management
+- Employee Management
+- Role & Permission Management
+- Multi-Branch Management
+- Audit Logs
+- Automatic Backup & Restore
+- Notification Center
+- Offline Mode
+- Mobile Application
+- WhatsApp Integration
+- Digital Payment Integration
+- AI Analytics
+- AI Business Assistant
+- Sales Prediction
+- Demand Prediction
+- Purchase Invoice OCR
+- AI Receipt Scanner
+- Voice Expense Entry
+- AI Business Insights
+```
+```md id="project-overview-part-3"
+---
+
+# Product Vision
+
+LedgerMemo aims to transform the way small businesses manage their daily bookkeeping by making voice the primary method of interaction.
+
+Instead of requiring accounting knowledge or manual record keeping, the platform enables shop owners to describe business activities naturally while artificial intelligence performs the bookkeeping automatically.
+
+The long-term vision is to create a simple, intelligent, and scalable business management platform that reduces operational complexity, improves record accuracy, and saves valuable time for business owners.
+
+**LedgerMemo aims to become the AI operating system for small businesses.**
 
 ---
 
-# Non-Goals (MVP)
+# Development Principles
 
-The following features are intentionally excluded from the first MVP release:
+The LedgerMemo project follows a documentation-first and architecture-driven development approach.
 
-- Multi-language AI training
-- Advanced analytics
-- Offline synchronization
-- Supplier management
-- Purchase workflows
-- Employee payroll
-- Native mobile applications
-- Third-party payment gateway integrations
+The following principles guide every stage of product development:
 
-These features are planned for future releases after validating the core grocery workflow.
+- Documentation before implementation.
+- One documentation file at a time.
+- One sprint at a time.
+- Modular architecture.
+- Production-ready quality.
+- Industry-standard engineering practices.
+- AI-friendly documentation.
+- Every feature must be fully documented before development begins.
+- Every sprint must contain small, checklist-based tasks.
+- Nothing should be skipped during the development lifecycle.
+- Every implementation should remain consistent with the approved documentation.
+- AI-generated code must follow the documented architecture.
 
----
-
-# Scalability Goal
-
-The architecture must support:
-
-- Single-shop deployment
-- Multi-shop SaaS deployment
-- Multi-tenant architecture
-- Cloud-native infrastructure
-- Horizontal scaling
-- Background workers
-- AI service abstraction
-- Future microservice migration without major rewrites
+These principles ensure consistency, maintainability, and long-term scalability throughout the project.
 
 ---
 
-# Documentation Roadmap
+# Project Scope
 
-The documentation for AI Bookkeeper follows a strict sequence.
+LedgerMemo is initially focused on solving bookkeeping challenges for grocery shops (Mudikhana).
 
-1. Project Overview
-2. Product Requirements
-3. System Architecture
-4. Technology Stack
-5. Folder Structure
-6. Database Design
-7. API Design
-8. Authentication Flow
-9. AI Engine
-10. UI/UX Flow
-11. Roadmap
-12. Sprint Documentation
-13. Development
+The MVP includes the essential business capabilities required for daily shop operations, including authentication, shop management, product management, customer management, voice sales, customer ledger, inventory management, invoice generation, dashboard, and business reports.
 
-No documentation should be skipped.
+Future versions will gradually expand support for additional business categories and advanced capabilities while preserving the approved product vision and architecture.
 
-Documentation must always be completed before implementation begins.
+**This document describes the business scope only and does not define technical implementation details.**
+```
+```md id="project-overview-part-4"
+---
+
+# Success Criteria
+
+LedgerMemo will be considered successful when it can:
+
+- Reduce bookkeeping time by more than **90%**.
+- Complete a voice-based sale within a few seconds.
+- Automatically maintain inventory accuracy.
+- Automatically maintain customer ledger accuracy.
+- Generate printable invoices instantly.
+- Support thousands of independent shops on a single SaaS platform.
+
+These criteria define the expected business outcomes of the MVP and provide measurable indicators for evaluating product success.
+
+---
+
+# Final Goal
+
+The long-term goal of LedgerMemo is to build a production-ready, AI-powered SaaS platform capable of serving businesses at scale.
+
+The platform should support growth from a single grocery shop to **10,000+ shops without requiring architectural redesign**, while maintaining performance, reliability, security, and a consistent user experience.
+
+By following a documentation-first approach, modular architecture, and AI-first product philosophy, LedgerMemo is intended to become a sustainable and extensible business platform capable of supporting future industries beyond grocery shops.
+
+The ultimate objective is to empower small business owners with intelligent automation, allowing them to spend less time on bookkeeping and more time growing their business.
+```
+---
+
+# Document Governance
+
+This document serves as the official business overview of the LedgerMemo project.
+
+All future product decisions, feature planning, and engineering documentation should remain aligned with the vision, scope, and principles defined in this document.
+
+Any major change to the product vision, scope, or objectives should be reviewed and documented before implementation.
