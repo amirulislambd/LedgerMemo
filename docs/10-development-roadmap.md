@@ -40,10 +40,10 @@ This keeps the development process controlled, easy to review, and safe to expan
 # Phase 1: Foundation
 
 ## 1. Project Setup
-- [ ] Initialize the project structure and confirm the folder layout
-- [ ] Set up the base Next.js app shell
-- [ ] Configure shared styling and theme foundation
-- [ ] Create reusable base components
+- [x] Initialize the project structure and confirm the folder layout
+- [x] Set up the base Next.js app shell
+- [x] Configure shared styling and theme foundation
+- [x] Create reusable base components
 
 ## 2. Authentication
 - [ ] Create sign-in screen

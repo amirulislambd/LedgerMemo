@@ -1,27 +1,31 @@
+import { Button } from "../components/ui/button";
+import { Card } from "../components/ui/card";
+import { PageHeader } from "../components/ui/page-header";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-slate-50 px-6 py-16 text-slate-900">
-      <div className="w-full max-w-3xl rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-600">
-          LedgerMemo
-        </p>
-        <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-          AI-powered bookkeeping for everyday shop owners.
-        </h1>
-        <p className="mt-4 max-w-2xl text-lg text-slate-600">
-          This first milestone sets up the app shell for a voice-first business
-          workflow focused on simple sales, inventory, and customer tracking.
-        </p>
-        <div className="mt-8 flex flex-wrap gap-3">
-          <span className="rounded-full bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700">
-            Next.js app ready
-          </span>
-          <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-            Project structure prepared
-          </span>
-          <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
-            Ready for the next milestone
-          </span>
+    <main className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900">
+      <div className="mx-auto flex max-w-5xl flex-col gap-6">
+        <PageHeader
+          title="AI-powered bookkeeping for everyday shop owners."
+          description="This milestone adds reusable base components for the upcoming business workflow screens."
+        />
+
+        <div className="grid gap-6 md:grid-cols-2">
+          <Card
+            title="Reusable UI foundation"
+            description="Shared building blocks now support a more consistent app experience."
+          >
+            <div className="flex gap-3">
+              <Button>Continue</Button>
+              <Button variant="secondary">Learn more</Button>
+            </div>
+          </Card>
+
+          <Card
+            title="Ready for the next step"
+            description="The app shell is now prepared for authentication and feature screens."
+          />
         </div>
       </div>
     </main>
